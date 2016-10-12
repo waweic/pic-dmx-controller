@@ -1,0 +1,9 @@
+--- Info 300 "main.c" Line 13(1,1): More info:   Timer 1 tick time is 8,19 ms
+>>> Warning 203 "C:\Program Files\PICC\drivers\pic18_usb.c" Line 719(1,1): Condition always TRUE
+--- Info 300 "main.c" Line 87(13,14): More info:   First Declaration of i
+*** Error 31 "main.c" Line 90(13,14): Identifier is already used in this scope
+*** Error 76 "main.c" Line 90(32,33): Expect ;
+*** Error 12 "main.c" Line 130(19,24): Undefined identifier   value
+*** Error 12 "main.c" Line 153(11,16): Undefined identifier   value
+      4 Errors,  1 Warnings.
+Build Failed.

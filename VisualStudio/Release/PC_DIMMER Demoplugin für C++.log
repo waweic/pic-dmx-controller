@@ -1,0 +1,30 @@
+﻿Der Buildvorgang wurde am 21.09.2016 18:10:16 gestartet.
+     1>Projekt "C:\Users\Heye\Documents\Visual Studio 2010\Projects\PluginSDK_C++\PC_DIMMER Demoplugin für C++.vcxproj" auf Knoten "2", rebuild Ziel(e).
+     1>InitializeBuildStatus:
+         "Release\PIC-USB-Controller-Plugin.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D "PC_DIMMERDEMOPLUGINFÜRC_EXPORTS" /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PC_DIMMER.cpp USBTestInterface.cpp WinUsbInterface.cpp
+         PC_DIMMER.cpp
+     1>PC_DIMMER.cpp(165): warning C4995: 'sprintf': der Name, der als #pragma markiert war, wurde verworfen
+     1>PC_DIMMER.cpp(165): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): Siehe Deklaration von 'sprintf'
+         USBTestInterface.cpp
+         WinUsbInterface.cpp
+         Code wird generiert...
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\PIC-USB-Controller-Plugin.dll" /INCREMENTAL:NO /NOLOGO winusb.lib setupapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"PC_DIMMER.def" /MANIFEST /ManifestFile:"Release\PIC-USB-Controller-Plugin.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Heye\Documents\Visual Studio 2010\Projects\PluginSDK_C++\Release\PIC-USB-Controller-Plugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\PIC-USB-Controller-Plugin.lib" /MACHINE:X86 /DLL Release\PC_DIMMER.obj
+         Release\USBTestInterface.obj
+         Release\WinUsbInterface.obj
+            Bibliothek "Release\PIC-USB-Controller-Plugin.lib" und Objekt "Release\PIC-USB-Controller-Plugin.exp" werden erstellt.
+     1>PIC-USB-Controller-Plugin.exp : warning LNK4070: Die /OUT:PC_DIMMER Demoplugin fuer C++.dll-Direktive in .EXP weicht vom Ausgabedateinamen "Release\PIC-USB-Controller-Plugin.dll" ab; Direktive wird ignoriert.
+         PC_DIMMER Demoplugin für C++.vcxproj -> C:\Users\Heye\Documents\Visual Studio 2010\Projects\PluginSDK_C++\Release\PIC-USB-Controller-Plugin.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\PIC-USB-Controller-Plugin.dll;#2" /manifest "Release\PIC-USB-Controller-Plugin.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Die Datei "Release\PIC-USB-Controller-Plugin.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Release\PIC-USB-Controller-Plugin.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\Heye\Documents\Visual Studio 2010\Projects\PluginSDK_C++\PC_DIMMER Demoplugin für C++.vcxproj" ist abgeschlossen, rebuild Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:02.06

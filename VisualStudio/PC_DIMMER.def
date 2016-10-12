@@ -1,0 +1,17 @@
+; uDMX_PcDimm.def : Deklariert die Modul-Parameter für die DLL.
+
+LIBRARY      "PC_DIMMER Demoplugin fuer C++"
+
+EXPORTS
+  ; Explizite Exporte können hier eingefügt werden
+  DLLCreate           @1
+  DLLStart            @2
+  DLLDestroy          @3
+  DLLIdentify         @4
+  DLLGetVersion       @5
+  DLLGetName          @6
+  DLLAbout            @7
+  DLLConfigure        @8
+  DLLSendData         @9
+  DLLIsSending        @10
+  DLLSendMessage      @11

@@ -1,0 +1,11 @@
+--- Info 300 "main.c" Line 13(1,1): More info:   Timer 1 tick time is 8,19 ms
+>>> Warning 203 "C:\Program Files\PICC\drivers\pic18_usb.c" Line 719(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 166(1,2): Interrupts disabled during call to prevent re-entrancy:  (usb_token_reset)
+>>> Warning 216 "main.c" Line 166(1,2): Interrupts disabled during call to prevent re-entrancy:  (@MUL1616)
+>>> Warning 216 "main.c" Line 166(1,2): Interrupts disabled during call to prevent re-entrancy:  (usb_flush_out)
+>>> Warning 216 "main.c" Line 166(1,2): Interrupts disabled during call to prevent re-entrancy:  (usb_tbe)
+>>> Warning 216 "main.c" Line 166(1,2): Interrupts disabled during call to prevent re-entrancy:  (usb_flush_in)
+>>> Warning 202 "main.c" Line 0(0,0): Variable never used:   USB_STRING_DESC_OFFSET
+      Memory usage:   ROM=21%      RAM=32% - 37%
+      0 Errors,  7 Warnings.
+Build Successful.

@@ -1,0 +1,14 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.059
+Compiler=PCH
+[Target Data]
+FileList=main.c
+[main.c]
+Type=4
+[mru-list]
+1=main.c
+[Units]
+Count=1
+1=main (main)

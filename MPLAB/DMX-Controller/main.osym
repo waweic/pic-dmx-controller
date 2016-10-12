@@ -1,0 +1,59 @@
+_RETURN_
+CCP_1
+CCP_1_LOW
+CCP_1_HIGH
+CCP_2
+CCP_2_LOW
+CCP_2_HIGH
+PSP_DATA
+C1OUT
+C2OUT
+rs232_errors
+rs485_collision
+rs485_state
+rs485_ni
+rs485_no
+rs485_buffer
+temp_ni
+value
+dmxnum
+status
+WAIT
+_Randseed
+
+Project Directory:
+    C:\Users\Heye\Documents\PIC-Projekte\Test_Timings\
+
+Project Files:
+    main.c                                                  [09-Sep-16 14:08  CRC=D17D5D24]
+    ..\..\..\..\..\Program Files\PICC\devices\18F4550.h     [18-Mai-16 15:14  CRC=7C29061C]
+    dmx.c                                                   [09-Sep-16 14:07  CRC=4EDB1E29]
+    ..\..\..\..\..\Program Files\PICC\drivers\stdlib.h      [27-Mrz-16 19:10  CRC=59769663]
+    ..\..\..\..\..\Program Files\PICC\drivers\stddef.h      [05-Sep-14 12:47  CRC=897CEC6C]
+    ..\..\..\..\..\Program Files\PICC\drivers\string.h      [26-Mrz-15 13:34  CRC=C4814297]
+    ..\..\..\..\..\Program Files\PICC\drivers\ctype.h       [03-Jan-08 15:55  CRC=2D1F019F]
+
+Source signature=9E344A0D
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Case Sensitive: Yes
+    ICD Provisions: Yes
+    Output file:    Relocatable
+    Compile Mode:       CCS5
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __18F4550 TRUE
+
+Output Files:
+    Errors:      main.err
+    Object:      main.o
+    Symbols:     main.osym
