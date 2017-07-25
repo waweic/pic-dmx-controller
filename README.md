@@ -1,5 +1,5 @@
 # pic-dmx-controller
-My friend Heye did in his Internship at the Institute for Automation some developing.
+A friend of mine did in his Internship at the Institute for Automation some developing.
 He used the CCS C-Compiler, so You will have to use the same.
 In the main Folder, you will find a .hex and a .dll file. The .hex file should be flashed to a PIC18f4550, the .dll file is a plugin for PCDIMMER. The Electronics are not yet tested on a real DMX-Device, but they ARE tested on a Oscillsocope. 
 The electronics should cost about 15€, but you don't have to use the most expensive parts, e.d the DC/DC Converter and the Octocoupler.
